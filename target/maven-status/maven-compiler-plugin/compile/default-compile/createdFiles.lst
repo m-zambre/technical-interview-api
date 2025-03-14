@@ -1,0 +1,7 @@
+com\ing\be\tia\model\Lists.class
+com\ing\be\tia\model\BulkStatus$Status.class
+com\ing\be\tia\model\BulkStatus.class
+com\ing\be\tia\repository\ListRepository.class
+com\ing\be\tia\TechnicalInterviewApiApplication.class
+com\ing\be\tia\service\ListService.class
+com\ing\be\tia\controller\ListController.class

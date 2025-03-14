@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.ing.be.tia.ListControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.941 sec <<< FAILURE! - in com.ing.be.tia.ListControllerTest
+com.ing.be.tia.ListControllerTest.testGetStatus_notFound()  Time elapsed: 0.849 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.ing.be.tia.service.ListService.getStatus(String)" because "this.listService" is null
+	at com.ing.be.tia.ListControllerTest.testGetStatus_notFound(ListControllerTest.java:62)
+
+com.ing.be.tia.ListControllerTest.testBulkUpload_success()  Time elapsed: 0.091 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.ing.be.tia.ListControllerTest.testBulkUpload_success(ListControllerTest.java:35)
+
+com.ing.be.tia.ListControllerTest.testGetStatus_success()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.ing.be.tia.service.ListService.getStatus(String)" because "this.listService" is null
+	at com.ing.be.tia.ListControllerTest.testGetStatus_success(ListControllerTest.java:52)
+
+com.ing.be.tia.ListControllerTest.testBulkUpload_emptyFile()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.ing.be.tia.ListControllerTest.testBulkUpload_emptyFile(ListControllerTest.java:45)
+

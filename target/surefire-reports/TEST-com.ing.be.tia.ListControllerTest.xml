@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ing.be.tia.ListControllerTest" time="0.941" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.14+7-adhoc..jdk17u"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\openjdk\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\technical-interview-api-main"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\technical-interview-api-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.14+7-adhoc..jdk17u"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mzamb\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="D:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf763179350467373193.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\openjdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/openlogic-openjdk-21.0.6+7-windows-x64/bin/server;C:/Program Files/Java/openlogic-openjdk-21.0.6+7-windows-x64/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jre1.8.0_51\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\mzamb\AppData\Local\Microsoft\WindowsApps;C:\Program Files\openjdk\bin;;C:\Users\mzamb\OneDrive\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\mzamb"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="mzamb"/>
+    <property name="java.class.path" value="C:\Users\mzamb\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always clean install"/>
+    <property name="java.home" value="C:\Program Files\openjdk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="maven.home" value="D:\workspace\technical-interview-api-main\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="m2e.build.project.data.socket.port" value="49820"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="com.ing.be.tia.ListControllerTest.testGetStatus_notFound" classname="com.ing.be.tia.ListControllerTest" time="0.849">
+    <failure message="Cannot invoke &quot;com.ing.be.tia.service.ListService.getStatus(String)&quot; because &quot;this.listService&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.ing.be.tia.service.ListService.getStatus(String)" because "this.listService" is null
+	at com.ing.be.tia.ListControllerTest.testGetStatus_notFound(ListControllerTest.java:62)
+</failure>
+  </testcase>
+  <testcase name="com.ing.be.tia.ListControllerTest.testBulkUpload_success" classname="com.ing.be.tia.ListControllerTest" time="0.091">
+    <failure message="Cannot invoke &quot;org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)&quot; because &quot;this.mockMvc&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.ing.be.tia.ListControllerTest.testBulkUpload_success(ListControllerTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="com.ing.be.tia.ListControllerTest.testGetStatus_success" classname="com.ing.be.tia.ListControllerTest" time="0">
+    <failure message="Cannot invoke &quot;com.ing.be.tia.service.ListService.getStatus(String)&quot; because &quot;this.listService&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.ing.be.tia.service.ListService.getStatus(String)" because "this.listService" is null
+	at com.ing.be.tia.ListControllerTest.testGetStatus_success(ListControllerTest.java:52)
+</failure>
+  </testcase>
+  <testcase name="com.ing.be.tia.ListControllerTest.testBulkUpload_emptyFile" classname="com.ing.be.tia.ListControllerTest" time="0">
+    <failure message="Cannot invoke &quot;org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)&quot; because &quot;this.mockMvc&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.springframework.test.web.servlet.MockMvc.perform(org.springframework.test.web.servlet.RequestBuilder)" because "this.mockMvc" is null
+	at com.ing.be.tia.ListControllerTest.testBulkUpload_emptyFile(ListControllerTest.java:45)
+</failure>
+  </testcase>
+</testsuite>

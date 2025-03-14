@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:h2:./cache;DB_CLOSE_ON_EXIT=FALSE
+      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.h2.Driver
+      - SPRING_DATASOURCE_USERNAME=randomusername
+      - SPRING_DATASOURCE_PASSWORD=randompassword
+      - SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.H2Dialect
+    depends_on:
+      - db
+  db:
+    image: oscarfonts/h2
+    environment:
+      - H2_OPTIONS=-ifNotExists
+    ports:
+      - "1521:1521"
